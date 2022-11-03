@@ -21,6 +21,6 @@ Route::get('/insert-prepared', [Employees::class, 'insert-Prepared']);
 Route::get('/insert-binding', [Employees::class, 'insert-Binding']);
 
 Route::get('/update', [Employees::class, 'update']);
-Route::get('/delete', [EmployeeStr::class, 'delete']);
+Route::get('/delete', [Employees::class, 'delete']);
 
 Route::get('/statement', [Employees::class, 'statement']);
